@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+
+double convertMoney(int dollars) {
+    
+    const double tipo_cambio = 7.0;
+    
+    double bolivianos = dollars * tipo_cambio;
+    
+    return bolivianos;
+}
+
+int main() {
+    int dollars;
+    
+    cout << "Ingrese el monto en dólares a convertir a bolivianos: ";
+    cin >> dollars;
+    
+    
+    if (dollars < 0) {
+        cout << "El monto ingresado no es válido. Debe ser un número positivo.\n";
+        return 1; // Salir del programa con código de error
+    }
+    
+    
+    double bolivianos = convertMoney(dollars);
+    
+    
+    cout << dollars << " dólares son aproximadamente " << bolivianos << " bolivianos.\n";
+    
+    return 0;
+}

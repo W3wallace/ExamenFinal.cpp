@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int convertDayIntoHours(int days) {
+    
+    const int hours_per_day = 24;
+    
+    
+    int hours = days * hours_per_day;
+    
+    return hours;
+}
+
+int main() {
+    int days;
+    
+    
+    cout << "Ingrese la cantidad de días a convertir en horas: ";
+    cin >> days;
+    
+    
+    int hours = convertDayIntoHours(days);
+    
+    
+    cout << days << " días equivalen a " << hours << " horas." << endl;
+    
+    return 0;
+}
