@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" modified="2024-06-19T07:21:48.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="d2ZI7f0gx9XHCvbCMieV" version="24.5.5" type="device">
+  <diagram name="Página-1" id="9a-uIuPXoqr6vnxGy6uq">
+    <mxGraphModel dx="1393" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pNO7ZRAIR1xsrUgvr73_-2" target="pNO7ZRAIR1xsrUgvr73_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="30" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pNO7ZRAIR1xsrUgvr73_-3" target="pNO7ZRAIR1xsrUgvr73_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-3" value="input del usuario en la variable days" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pNO7ZRAIR1xsrUgvr73_-4" target="pNO7ZRAIR1xsrUgvr73_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-4" value="Ingrese la cantidad de días a convertir en horas" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pNO7ZRAIR1xsrUgvr73_-7" target="pNO7ZRAIR1xsrUgvr73_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-7" value="Calcular hours = days * 24" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-9" value="días equivalen a horas" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pNO7ZRAIR1xsrUgvr73_-10" target="pNO7ZRAIR1xsrUgvr73_-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pNO7ZRAIR1xsrUgvr73_-10" target="pNO7ZRAIR1xsrUgvr73_-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-10" value="&quot;¿Desea realizar otra conversión? (S/N):&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="160" height="65.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.544;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pNO7ZRAIR1xsrUgvr73_-9" target="pNO7ZRAIR1xsrUgvr73_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-14" value="SI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="608" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-15" value="&amp;nbsp;Reiniciar el proceso desde &quot;Mostrar mensaje&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="638" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pNO7ZRAIR1xsrUgvr73_-18" target="pNO7ZRAIR1xsrUgvr73_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-18" value="Mostrar mensaje de despedida" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-19" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="608" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-20" value="FIN" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="740" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pNO7ZRAIR1xsrUgvr73_-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pNO7ZRAIR1xsrUgvr73_-15" target="pNO7ZRAIR1xsrUgvr73_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
